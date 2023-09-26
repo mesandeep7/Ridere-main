@@ -47,6 +47,7 @@ function MyCarousel() {
     // Remove event listener on component unmount
     return () => window.removeEventListener("resize", handleResize);
   }, []);
+
   const scrollToSlide = (slideIndex) => {
     // Calculate the offset based on the slide index (0-indexed)
     const offset = slideIndex * window.innerHeight;
@@ -57,6 +58,7 @@ function MyCarousel() {
       behavior: "smooth", // Add smooth scrolling behavior
     });
   };
+  
   return (
     <div>
       {/* Content to be displayed above the carousel */}
