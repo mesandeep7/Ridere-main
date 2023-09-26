@@ -8,6 +8,7 @@
 }
 .cardSec{
   padding: 100px 0  !important;
+  width: 100%;
 }
 
 #maincontainer {
@@ -42,6 +43,7 @@
 /* } */
 
 #AllBoxes {
+  width: 100%;
   gap: 20px;
   margin-top: 30px;
   display: flex !important;
@@ -159,6 +161,7 @@
 @media screen and (min-width: 320px) and (max-width: 426px) {
   .mobiView {
     width:80% !important;
+    margin-left: 20px;
   }
 }
 
