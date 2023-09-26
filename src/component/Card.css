@@ -156,6 +156,11 @@
 }
 
 /* Media Queries (Adjust as Needed) */
+@media screen and (min-width: 320px) and (max-width: 426px) {
+  .mobiView {
+    width:80% !important;
+  }
+}
 
 @media screen and (min-width: 768px) {
   .col-md-12 {

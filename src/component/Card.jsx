@@ -22,7 +22,7 @@ class LandingPgePart extends Component {
           <Zoom triggerOnce={true}>
             <div className="row" id="AllBoxes">
 
-              <div className="col-lg-3 col-md-12 col-sm-1" id="box-1">
+              <div className="col-lg-3 col-md-12 col-sm-1 mobiView" id="box-1">
                 <div className="squaredThree">
                   <input type="checkbox" id="myCheckbox" name="check" checked />
                   <label htmlFor="myCheckbox"> </label>
@@ -31,7 +31,7 @@ class LandingPgePart extends Component {
                 <p>RIDERE streamlines rides for swift commutes.</p>
               </div>
 
-              <div className="col-lg-3 col-md-12 col-sm-1" id="box-2">
+              <div className="col-lg-3 col-md-12 col-sm-1 mobiView" id="box-2">
                 <div className="squaredThree">
                   <input type="checkbox" id="myCheckbox" name="check" checked />
                   <label htmlFor="myCheckbox"> </label>
@@ -41,7 +41,7 @@ class LandingPgePart extends Component {
               </div>
 
 
-              <div className="col-lg-3 col-md-12 col-sm-1" id="box-3">
+              <div className="col-lg-3 col-md-12 col-sm-1 mobiView" id="box-3">
                 <div className="squaredThree">
                   <input type="checkbox" id="myCheckbox" name="check" checked />
                   <label htmlFor="myCheckbox"> </label>
