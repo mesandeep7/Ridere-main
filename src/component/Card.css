@@ -7,14 +7,16 @@
   
 }
 .cardSec{
-  padding: 100px 0  !important;
+  /* padding: 100px 0  !important; */
   width: 100%;
 }
-
+.textContentBox{
+  text-align: center;
+}
 #maincontainer {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  /* align-items: center; */
   justify-content: center;
   height: 100%;
   padding-top: 50px;
@@ -63,7 +65,7 @@
 /* } */
 
 #box-1 p, #box-2 p, #box-3 p {
-  margin-left: 12px;
+  /* margin-left: 12px; */
 }
 
 /* Animation Keyframes */
@@ -208,6 +210,5 @@
   border-radius: 25px;
 
 }
-
 
 

@@ -9,7 +9,7 @@ class LandingPgePart extends Component {
         <div className="container-fluid cardSec " id="maincontainer">
           <div id="matter">
             <Slide direction="up" >
-              <h1>Your journeys are<br /> simply a click away</h1>
+              <h1>Your journeys are simply a click away</h1>
             </Slide>
             <Slide direction="up" >
               <p>
@@ -26,9 +26,9 @@ class LandingPgePart extends Component {
                 <div className="squaredThree">
                   <input type="checkbox" id="myCheckbox" name="check" checked />
                   <label htmlFor="myCheckbox"> </label>
-                  <h5>For Efficiency</h5>
+                  <h5 >For Efficiency</h5>
                 </div>
-                <p>RIDERE streamlines rides for swift commutes.</p>
+                <p className="textContentBox">RIDERE streamlines rides for swift commutes.</p>
               </div>
 
               <div className="col-lg-3 col-md-12 col-sm-1 mobiView" id="box-2">
@@ -37,7 +37,7 @@ class LandingPgePart extends Component {
                   <label htmlFor="myCheckbox"> </label>
                   <h5>Affordability</h5>
                 </div>
-                <p>Enjoy cost-effective transportation</p>
+                <p className="textContentBox">Enjoy cost-effective transportation</p>
               </div>
 
 
@@ -47,7 +47,7 @@ class LandingPgePart extends Component {
                   <label htmlFor="myCheckbox"> </label>
                   <h5>Reliability</h5>
                 </div>
-                <p>Count on punctual, dependable service</p>
+                <p className="textContentBox">Count on punctual, dependable service</p>
               </div>
 
             </div>
