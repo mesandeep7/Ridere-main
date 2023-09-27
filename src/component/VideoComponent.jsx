@@ -1,8 +1,8 @@
 import React from "react";
-import "./Video.css";
+import "./VideoComponent.css";
 import { Slide, Zoom } from "react-awesome-reveal";
 
-function Videocomp() {
+function Videocomponent() {
 
   return (
     <div className="container-fluid video1 ">
@@ -115,4 +115,4 @@ function Videocomp() {
   );
 }
 
-export default Videocomp;
+export default Videocomponent;

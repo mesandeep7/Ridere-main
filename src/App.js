@@ -5,8 +5,9 @@ import Footer from './component/Footer.jsx'
 import Card from './component/Card.jsx'
 import CountSection from './component/countSection';
 import FAQApp from './component/faqComponent';
-import Myvideo from './component/Video';
+// import Myvideo from './component/Video';
 import MyCarousel from './component/Ncarousal';
+import Videocomponent from './component/VideoComponent';
 
 function App() {
   const [scrolled, setScrolled] = useState(false);
@@ -39,7 +40,9 @@ function App() {
         <MyCarousel />
 
       </div>
-      <Myvideo />
+      {/* <Myvideo /> */}
+      <Videocomponent/>
+
 
       <div className="card-container">
         <Card />
