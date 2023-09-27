@@ -6,7 +6,7 @@ function Videocomp() {
   
   return (
     <div className="container-fluid video1 ">
-      <div className="container text-center pt-4 card1">
+      <div className="container text-center pt-4 card1" >
         <Slide direction="up" >
           <div className="myelementSec">
             <h1>"Seamless Mobility"</h1>
@@ -46,7 +46,7 @@ function Videocomp() {
           <Slide direction="up" >
             <div className="myelementSec">
               <h2 className="subcard2 col-lg-7  mx-auto my-4 display-9 fw-bold text-body-emphasis ">
-                "RIDE in Style with RIDERE" - India's<br></br> Premier Bike Taxi App
+                <span className="firstTextColor">"RIDE in Style with RIDERE" </span> <span className="secTextColor">- India's</span><br></br> Premier Bike Taxi App
               </h2>
             </div>
           </Slide>
@@ -61,11 +61,11 @@ function Videocomp() {
                 congestion, swiftly taking you to your destination in no time!
                 When it comes to transportation, it's all about RIDERE
               </p>
-              <p className="semicard2">
+              {/* <p className="semicard2">
                 <a href="adsd" className="cardbttn">
                   Start now
                 </a>
-              </p>
+              </p> */}
             </Slide>
           </div>
 
@@ -84,11 +84,11 @@ function Videocomp() {
                   RIDERE helps you book a ride in an instant. Our riders are every
                   where in your city to take you to your destination.
                 </p>
-                <p>
+                {/* <p>
                   <a href="qw" className="cardbttn">
                     Learn More
                   </a>
-                </p>
+                </p> */}
               </div>
             </Slide>
           </div>
@@ -98,7 +98,7 @@ function Videocomp() {
               <div className="myelementSec">
                 <video
                   className="semicard31"
-                  src="/images/vid.mp4"
+                  src="./images/vid.mp4"
                   alt="dff"
                   autoPlay
                   loop

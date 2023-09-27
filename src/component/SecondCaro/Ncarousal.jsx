@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import myImage1 from "./images/pexels-cesar-perez-733745.jpg";
-import myImage2 from "./images/pexels-yurii-hlei-1545743.jpg";
+import myImage1 from "../images/pexels-cesar-perez-733745.jpg";
+import myImage2 from "../images/pexels-yurii-hlei-1545743.jpg";
 import "./RCarousal.css";
 import { Slide } from "react-awesome-reveal";
 
@@ -298,7 +298,7 @@ function MyCarousel() {
         </div>
 
       </div>
-      {/* <button
+      <button
         className="carousel-control-prev"
         type="button"
         data-bs-target="#myCarousel"
@@ -315,7 +315,7 @@ function MyCarousel() {
       >
         <span className="carousel-control-next-icon" aria-hidden="true"></span>
         <span className="visually-hidden">Next</span>
-      </button> */}
+      </button>
     </div>
   );
 }

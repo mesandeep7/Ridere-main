@@ -1,14 +1,15 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
-import Carousel from './component/RCarousel.jsx';
+// import Carousel from './component/RCarousel.jsx';
 import Navbar from './component/MyNavbar.jsx';
-import Ncarousal from './component/Ncarousal.jsx'
+// import Ncarousal from './component/Ncarousal.jsx'
 import Footer from './component/Footer.jsx'
 import Card from './component/Card.jsx'
 import CountSection from './component/countSection';
 import FAQApp from './component/faqComponent';
-import VideoComp from './component/Video'
-
+// import VideoComp from './component/Video'
+import MyCarousel from './component/SecondCaro/Ncarousal';
+import Myvideo from './component/Video'
 function App() {
   const [scrolled, setScrolled] = useState(false);
 
@@ -37,13 +38,13 @@ function App() {
         <Navbar />
       </header>
       <div className="fixed-carousel">
-        <Ncarousal />
-
+        {/* <Ncarousal /> */}
+        <MyCarousel/>
         
 
         {/* <Carousel /> */}
       </div>
-        <VideoComp />
+      <Myvideo/>
 
       <div className="card-container">
         <Card />

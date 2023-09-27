@@ -8,7 +8,8 @@ function MyNavbar() {
     <header data-bs-theme="light">
       <nav className="navbar navbar-expand-md navbar-light fixed-top bg-light">
         <div className="container">
-        <Slide direction="left" delay={600} duration={800} triggerOnce>
+        {/* <Slide direction="left" delay={600} duration={800} triggerOnce> */}
+        <Slide direction="left" triggerOnce>
 
             <a className="navbar-brand" href="#">
               <img
@@ -80,9 +81,10 @@ function MyNavbar() {
               </li>
             </ul>
 
-            <button type="button" className="btn btn-dark">
-              Sign-up
-            </button>
+            {/* <button type="button" > */}
+              <a className="btn btn-dark signupBtn" href="https://play.google.com/store">Sign-up</a>
+              
+            {/* </button> */}
           </div>
         </div>
       </nav>

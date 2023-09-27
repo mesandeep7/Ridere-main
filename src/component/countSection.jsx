@@ -31,15 +31,15 @@ function CountSection() {
       </h1>
       <h1 className="countSectionH1">
         <span className="number">
-          {isVisible && <NumberCounter start={0} end={10} duration={3000} />}
-          <span className="plus">M</span>
+          {isVisible && <NumberCounter start={0} end={10} duration={3000} />}M
+          <span className="plus">+</span>
         </span>
         <span className="cities">Downloads</span>
       </h1>
       <h1 className="countSectionH1">
         <span className="number">
-          {isVisible && <NumberCounter start={0} end={15} duration={3000} />}
-          <span className="plus">M</span>
+          {isVisible && <NumberCounter start={0} end={15} duration={3000} />}M
+          <span className="plus">+</span>
         </span>
         <span className="cities">Customers</span>
       </h1>

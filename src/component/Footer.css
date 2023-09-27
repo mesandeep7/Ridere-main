@@ -3,12 +3,12 @@ footer {
 }
 
 .rftext{
-    text-decoration: none;
-    background-image: linear-gradient(to bottom, yellow, red)!important;
-  -webkit-background-clip: text; /* For Safari/Chrome */
-  background-clip: text;
-  color: transparent !important;
-  cursor: pointer;
+  text-decoration: none;
+  /* background-image: linear-gradient(to bottom, yellow, red)!important; */
+-webkit-background-clip: text; /* For Safari/Chrome */
+background-clip: text;
+color: rgba(0, 0, 0, 0.774) !important;
+cursor: pointer;
 }
 .fmargin{
   margin-bottom: 0px;
