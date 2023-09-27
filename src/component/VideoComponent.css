@@ -184,15 +184,6 @@
   .subcard2 {
     text-align: center;
     /* color: orange !important; */
-    background-image: linear-gradient(to bottom, orange, red) !important;
-  
-    -webkit-background-clip: text;
-    /* For Safari/Chrome */
-    background-clip: text;
-    color: transparent !important;
-    /* text-fill-color: transparent; */
-  
-  
   }
   
   .imgsize {
@@ -243,4 +234,14 @@
   /* Style for the h5 element */
   .col.subcard11,.col.subcard12,.col.subcard13 h5 {
     margin-top: 10px; /* Add some space between the image and the text */
+  }
+  .firstTextColor{
+    background-image: linear-gradient(to bottom, orange, red) !important;
+
+    -webkit-background-clip: text;
+    /* For Safari/Chrome */
+    background-clip: text;
+    color: transparent !important;
+    /* text-fill-color: transparent; */
+
   }
