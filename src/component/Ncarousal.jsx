@@ -298,7 +298,7 @@ function MyCarousel() {
         </div>
 
       </div>
-      {/* <button
+      <button
         className="carousel-control-prev"
         type="button"
         data-bs-target="#myCarousel"
@@ -315,7 +315,7 @@ function MyCarousel() {
       >
         <span className="carousel-control-next-icon" aria-hidden="true"></span>
         <span className="visually-hidden">Next</span>
-      </button> */}
+      </button>
     </div>
   );
 }

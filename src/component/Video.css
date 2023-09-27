@@ -6,6 +6,9 @@
     padding: 0;
   
   }
+  .nameContent{
+    margin-top: 30px !important;
+  }
   .card1{
     padding-top: 100px !important;
   }
@@ -13,8 +16,6 @@
     background-color: aliceblue;
     color: black;
     width: 100%;
-  
-  
   }
   
   .cardbttn {

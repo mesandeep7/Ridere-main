@@ -3,7 +3,7 @@ import "./Video.css";
 import { Slide, Zoom } from "react-awesome-reveal";
 
 function Videocomp() {
-  
+
   return (
     <div className="container-fluid video1 ">
       <div className="container text-center pt-4 card1" >
@@ -17,10 +17,10 @@ function Videocomp() {
           <div class="col subcard11">
             <img
               src="./images/pexels-arnie-watkins-3156482.jpg"
-              alt="Image Description" 
+              alt="Image Description"
               class="imgsize"
             />
-            <h5>Convenience and Accessibility</h5>
+            <h5 className="nameContent">Convenience and Accessibility</h5>
           </div>
           <div class="col subcard12">
             <img
@@ -28,7 +28,7 @@ function Videocomp() {
               alt="Image Description"
               class="imgsize"
             />{" "}
-            <h5>Safety and Transparency</h5>
+            <h5 className="nameContent">Safety and Transparency</h5>
           </div>
           <div class="col subcard13">
             <img
@@ -36,7 +36,7 @@ function Videocomp() {
               alt="Image Description"
               class="imgsize"
             />
-            <h5>Affordability and Pricing Transparency</h5>
+            <h5 className="nameContent">Affordability and Pricing {/*<br/> Transparency*/}</h5>
           </div>
         </div>
 
